@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Portfolio of Olga Nazarova - Full Stack Dev",
   description:
-    "This is the portfolio of Olga Nazarova, a Full Stack Software Engineer. I'm passionate about delivering flawless products and bringing real value to the world.",
+    "This is the portfolio of Olga Nazarova, a Full Stack Software Developer. I'm passionate about delivering flawless products and bringing real value to the world.",
 };
 
 export default function RootLayout({ children }) {

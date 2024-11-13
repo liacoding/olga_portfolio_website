@@ -5,9 +5,9 @@ const Projects = () => {
     {
       title: 'Movie Streaming App',
       image: '/olga_images/movie_project.png',
-      description: 'Movie Streaming App is a dynamic platform built on the MERN stack, providing users with seamless access to movie trailers, actor information, and movie data. With secure user authentication, viewers can personalize their experience, track favorite films, and save search history. (After clicking a link, it might take 2-3 minutes to load due to the hosting setting). ',
+      description: 'AI-Assisted Movie Streaming App is a web platform built on the MERN stack with xAI (Grok LLM), providing users with seamless access to movie trailers, actor information, and movie data. With secure user authentication, viewers can personalize their experience, track favorite films, and save search history. The AI Assistant can also generate movie recommendations based on user prompts.',
       url: 'https://cinemagic-rbel.onrender.com/',
-      tags: ['MongoDB', 'Express', 'React', 'Node.js'],
+      tags: ['MongoDB', 'Express', 'React', 'Node.js', 'xAI (Grok LLM)'],
     },
 
   ];

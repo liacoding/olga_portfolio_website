@@ -6,15 +6,15 @@ function AboutSection() {
   const qaList = [
     {
       question: "Who am I?",
-      answer: "My name is Olga Nazarova. I'm a Full Stack Software Engineer with a passion for delivering high-quality products.",
+      answer: "My name is Olga Nazarova. I'm a Full Stack Software Developer with a passion for delivering high-quality products.",
     },
     {
       question: "Tech stack?",
-      answer: "I primarily work with the MERN stack (MongoDB, Express, React, Node.js), along with other tools like Stripe, Tailwind CSS and AWS. I also have experience with Java, SpringBoot and Swift. ",
+      answer: "I primarily work with the MERN stack (MongoDB, Express, React, Node.js) and AI APIs like OpenAI (ChatGPT LLM) and xAI (Grok LLM), along with other tools like Tailwind CSS and AWS. I also have experience with Java, SpringBoot and Swift. ",
     },
     {
       question: "Skills?",
-      answer: "Agile/Scrum, Software Development Life Cycle, Test Driven Development (TDD), REST APIs, Microservices, Design Patterns, Version Control (Git), Project Management & Collaboration tools (Jira, Slack).",
+      answer: "Agile/Scrum, Software Development Life Cycle, Test Driven Development (TDD), REST APIs, Microservices, Design Patterns, Version Control (Git), AI & Gen AI driven development, CI/CD, LLM integration (ChatGPT, Grok).",
     },
     {
       question: "How did I become a developer?",
@@ -26,7 +26,7 @@ function AboutSection() {
     },
     {
       question: "Hobbies and interests?",
-      answer: "In my free time, I enjoy exploring new tech trends, creating arts, playing tennis and spending time with family & friends.",
+      answer: "In my free time, I enjoy exploring new tech trends, creating art, playing tennis and spending time with family & friends.",
     },
   ];
 
@@ -37,10 +37,7 @@ function AboutSection() {
         About Me
       </h2>
       <div className="hidden lg:flex flex-col items-center absolute top-16 -right-8">
-        <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
-          ABOUT ME
-        </span>
-        <span className="h-36 w-[2px] bg-[#1a1443]"></span>
+  
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 max-w-5xl mx-auto">
         {qaList.map((item, index) => (

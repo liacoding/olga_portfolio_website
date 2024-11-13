@@ -25,7 +25,7 @@ function HeroSection() {
             Hello, <br />
             This is {' '}
             <span className=" text-pink-500">{personalData.name}</span>
-            {` , I'm a  `}
+            {`, I'm a  `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
             .
           </h1>
@@ -78,10 +78,10 @@ function HeroSection() {
 
        <div className="order-1 lg:order-2 flex justify-center items-center mt-12">
           <Image
-            src="/olga_images/olga_photo_hero.png" // Replace this with your actual image path
+            src="/olga_images/olga_photo_hero.png" 
             alt="Olga Nazarova"
-            width={390} // Adjust width as needed
-            height={390} // Adjust height as needed
+            width={400} 
+            height={500} 
             className="rounded-full border-4 border-pink-500"
           />
         </div>

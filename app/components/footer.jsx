@@ -34,7 +34,7 @@ function Footer() {
               <BsGithub size={24} />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/olganazarova"
+              href="https://www.linkedin.com/in/liacode/"
               target="_blank"
               className="text-pink-500 transition-all hover:scale-125 duration-300"
             >
@@ -42,7 +42,7 @@ function Footer() {
             </Link>
            
             <Link
-              href="https://leetcode.com/olganazarova"
+              href="https://leetcode.com/u/OlgaN23/"
               target="_blank"
               className="text-pink-500 transition-all hover:scale-125 duration-300"
             >
